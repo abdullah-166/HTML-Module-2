@@ -1,0 +1,99 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: antiquewhite;
+}
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(134, 134, 225, 0.634);
+}
+.logo{
+    width: 150px;
+}
+.menu-container{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 30px;
+}
+.banner-image{
+    width: 600px;
+    height: 450px;
+    justify-content: space-around;
+}
+.banner{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.title{
+    font-weight: bold;
+    font-size: 60px;
+    color: rgba(134, 134, 225, 0.634);
+    text-align: center;
+}
+.description{
+    font-size: 45px;
+    text-align: center;
+}
+button{
+    padding: 15px 25px;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+.appbtn{
+    background-color: rgba(134, 134, 225, 0.634);
+}
+.docbtn{
+    background-color: rgba(134, 134, 225, 0.634);
+}
+.service-card{
+    width: 300px;
+    height: 380px;
+    box-shadow: 8px 8px 16px gray;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    font-size: 17px;
+}
+.service-img{
+    width: 65%;
+}
+.service-img1{
+    width: 45%;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.input-name{
+    padding: 10px 25px;
+    margin: 10px;
+}
+.contact-container{
+    text-align: center;
+}
+.detail{
+    padding: 35px 50px;
+}
+.sub-btn{
+    padding: 10px 20px;
+    background-color: rgba(134, 134, 225, 0.634);
+    color: white;
+    border: none;
+    margin: 10px;
+    font-size: 120%;
+}
+.input-name1{
+    padding: 35px 50px;
+    margin: 10px;
+}
